@@ -17,14 +17,14 @@ function App() {
   return (
       <Router>
         <div>
-          <ul>
+          {/* <ul>
             <li>
               <Link to="/login">Public Page</Link>
             </li>
             <li>
               <Link to="/dashboard">Protected Page</Link>
             </li>
-          </ul>
+          </ul> */}
 
           <Switch>
             <Route path="/login">
